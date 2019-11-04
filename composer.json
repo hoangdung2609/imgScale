@@ -1,0 +1,15 @@
+{
+    "name": "hoangdung/imagescale",
+    "authors": [
+        {
+            "name": "hoangdung",
+            "email": "hoangdung2695@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "hoangdung\\imagescale\\": "src/"
+        }
+    }
+}
