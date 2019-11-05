@@ -2,9 +2,9 @@
 
 namespace hoangdung\imagescale;
 
-use App\Console\Commands\ScaleImage;
+//use App\Console\Commands\ScaleImage;
 use Illuminate\Support\ServiceProvider;
-use ImageScale;
+use hoangdung\imagescale\ImageScale;
 
 class ImageScaleProvider extends ServiceProvider
 {
@@ -17,6 +17,8 @@ class ImageScaleProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+        $this->publishes([
+            __DIR__.'/config/imagescale.php' => config_path('imagescale.php'),
+        ]);
     }
 }
