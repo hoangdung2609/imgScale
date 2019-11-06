@@ -1,8 +1,8 @@
 <?php
 
-namespace hoangdung\imagescale;
+namespace Hoangdung\Imagescale;
 
-use hoangdung\imagescale\ImageScale;
+use Hoangdung\Imagescale\ImageScale;
 
 class Test {
 

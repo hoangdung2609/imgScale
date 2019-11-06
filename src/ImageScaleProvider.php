@@ -1,10 +1,10 @@
 <?php
 
-namespace hoangdung\imagescale;
+namespace Hoangdung\Imagescale;
 
 //use App\Console\Commands\ScaleImage;
 use Illuminate\Support\ServiceProvider;
-use hoangdung\imagescale\ImageScale;
+use Hoangdung\Imagescale\ImageScale;
 
 class ImageScaleProvider extends ServiceProvider
 {

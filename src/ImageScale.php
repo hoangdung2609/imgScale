@@ -1,5 +1,5 @@
 <?php
-namespace hoangdung\imagescale;
+namespace Hoangdung\Imagescale;
 
 use Intervention\Image\ImageManagerStatic as Image;
 

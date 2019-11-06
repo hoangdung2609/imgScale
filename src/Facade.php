@@ -1,6 +1,6 @@
-<?php namespace hoangdung\imagescale;
+<?php namespace Hoangdung\Imagescale;
 
-use hoangdung\imagescale\ImageScale;
+use Hoangdung\Imagescale\ImageScale;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
